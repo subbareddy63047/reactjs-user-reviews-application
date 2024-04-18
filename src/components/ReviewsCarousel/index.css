@@ -1,0 +1,83 @@
+/* Write your code here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  align-items: center;
+
+  height: 65%;
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.review-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 80%;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+.review-container button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-width: 0px;
+  background-color: transparent;
+}
+button img {
+  width: 90%;
+  height: 100%;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 65%;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+  align-self: flex-start;
+}
+.user-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.user-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.company-name,
+.user-description {
+  color: #171f46;
+  font-size: 20px;
+  font-weight: 500;
+}
+.user-description {
+  font-size: 20px;
+  text-align-last: center;
+}
